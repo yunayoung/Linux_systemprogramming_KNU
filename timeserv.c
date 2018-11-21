@@ -8,7 +8,7 @@
 #include<time.h>
 #include<strings.h>
 
-#define PORTNUM 13012
+#define PORTNUM 13008
 #define HOSTLEN 256
 #define oops(msg) {perror(msg); exit(1);}
 

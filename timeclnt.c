@@ -18,6 +18,8 @@ int main(int ac, char *av[]){
   char message[BUFSIZ];
   int messlen;
   
+  sock_id = socket(AF_INET, SOCK_STREAM, 0);
+  
   if(sock_id==-1)
     oops("socket");
     
